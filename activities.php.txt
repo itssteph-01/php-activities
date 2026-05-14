@@ -1,0 +1,128 @@
+<?php
+echo "<style>
+body {
+font-family: Arial;
+background-color: #f4f4f4;
+}
+.container {
+width: 80%;
+margin: auto;
+background: white;
+padding: 20px;
+border-radius: 10px;
+}
+h1, h2, h3 {
+color: #333;
+}
+hr {
+margin: 20px 0;
+}
+.box {
+background: #e9f0ff;
+padding: 10px;
+margin: 5px 0;
+border-radius: 5px;
+}
+</style>";
+
+echo "<div class='container'>";
+
+echo "<h1>PHP Activities</h1>";
+echo "<h3>Stephanie O. Bandola - BSIT 1B</h3>";
+echo "<h4>Pateros Technological College</h4>";
+
+echo "<hr>";
+
+
+// ACTIVITY 1
+echo "<h2>ACTIVITY 1: Basic Output</h2>";
+
+echo "<div class='box'>Name: Stephanie O. Bandola</div>";
+echo "<div class='box'>Course: BSIT</div>";
+
+echo "<hr>";
+
+
+// ACTIVITY 2
+echo "<h2>ACTIVITY 2: Multiple Outputs</h2>";
+
+echo "<div class='box'>Welcome!</div>";
+echo "<div class='box'>This is PHP.</div>";
+echo "<div class='box'>Enjoy coding!</div>";
+
+echo "<hr>";
+
+
+// ACTIVITY 3
+echo "<h2>ACTIVITY 3: Declaring Variables</h2>";
+
+$name = "Stephanie";
+$age = 20;
+
+echo "<div class='box'>Name: $name</div>";
+echo "<div class='box'>Age: $age</div>";
+
+echo "<hr>";
+
+
+// ACTIVITY 4
+echo "<h2>ACTIVITY 4: Variable Rules</h2>";
+
+$name2 = "Ana";
+$age2 = 18;
+
+echo "<div class='box'>Age: $age2</div>";
+
+echo "<hr>";
+
+
+// ACTIVITY 5
+echo "<h2>ACTIVITY 5: Arithmetic Operators</h2>";
+
+$a = 10;
+$b = 3;
+
+echo "<div class='box'>Addition: " . ($a + $b) . "</div>";
+echo "<div class='box'>Subtraction: " . ($a - $b) . "</div>";
+echo "<div class='box'>Multiplication: " . ($a * $b) . "</div>";
+echo "<div class='box'>Division: " . ($a / $b) . "</div>";
+
+echo "<hr>";
+
+
+// ACTIVITY 6
+echo "<h2>ACTIVITY 6: Assignment Operators</h2>";
+
+$x = 5;
+$x += 3;
+
+echo "<div class='box'>Output: $x</div>";
+
+echo "<hr>";
+
+
+// ACTIVITY 7
+echo "<h2>ACTIVITY 7: Comparison Operators</h2>";
+
+$c = 10;
+$d = 5;
+
+echo "<div class='box'>c > d: " . var_export($c > $d, true) . "</div>";
+echo "<div class='box'>c == d: " . var_export($c == $d, true) . "</div>";
+
+echo "<hr>";
+
+
+// MINI PROJECT
+echo "<h2>MINI PROJECT: Simple Calculator</h2>";
+
+$num1 = 8;
+$num2 = 4;
+
+echo "<div class='box'>Sum: " . ($num1 + $num2) . "</div>";
+echo "<div class='box'>Difference: " . ($num1 - $num2) . "</div>";
+echo "<div class='box'>Product: " . ($num1 * $num2) . "</div>";
+echo "<div class='box'>Quotient: " . ($num1 / $num2) . "</div>";
+
+echo "</div>";
+?>
